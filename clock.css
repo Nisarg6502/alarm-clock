@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+.heading{
+    background-color: rgb(184, 202, 230);
+    color: rgb(250, 250, 253);
+    width: 100%;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    border: 2px solid;
+    width: 40vw;
+    background: url("Images/Clock.png") no-repeat;
+    background-size: 100%;
+    height: 42vw;
+    float: left;
+    max-width: 40vw;
+}
+
+#hours, #minutes, #second {
+    position: absolute;
+    background: black;
+    border-radius: 1em;
+    transform-origin: bottom;
+}
+
+#hours {
+    width: 2.5%;
+    height: 19%;
+    top: 32.5%;
+    left: 48.7%;
+    opacity: 0.8;
+}
+
+#minutes {
+    height: 46%;
+    width: 1%;
+    top: 5%;
+    left: 49.4%;
+}
+#second{
+    height: 38%;
+    width: 0.3%;
+    top: 13%;
+    left: 49.8%;
+    background: red;
+}
+/* .alarm{
+    float: right;
+} */
+.ctime{
+    border: 2px solid red;
+    margin: 0 auto;
+    width: fit-content;
+    height: 20rem;
+    padding: 10px;
+    background: #000;
+    text-align: center;
+    
+}
+.ctimeh{
+    color: white;
+}
+.square{
+    font-size: x-large;
+    width: fit-content;
+    margin: auto;
+    float: left;
+}
+#display1,#display2,#display3{
+    border: 2px solid;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    align-items: flex-start;
+    flex-direction: row;
+    float: left;
+    margin-bottom: 0.1rem;
+}
+.text{
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+.alarm{
+    clear: left;
+}
